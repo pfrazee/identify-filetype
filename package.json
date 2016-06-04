@@ -1,0 +1,30 @@
+{
+  "name": "identify-filetype",
+  "version": "1.0.0",
+  "description": "Identify the type of file",
+  "main": "index.js",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfraze/identify-filetype.git"
+  },
+  "keywords": [
+    "identify",
+    "file"
+  ],
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfraze/identify-filetype/issues"
+  },
+  "homepage": "https://github.com/pfraze/identify-filetype#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pull-stream": "^2.28.2",
+    "tape": "^4.2.0",
+    "test-files": "~1.0.1"
+  }
+}
